@@ -21,7 +21,7 @@ ExpressionSet with loaded count matrix
 Load count matrix from HDF5-files.
 }
 \examples{
-ess <- GEOquery::getGEO("GSE85653")
+ess <- GEOquery::getGEO("GSE85653", returnType = "ExpressionSet")
 es <- ess[[1]]
 url <- 'https://alserglab.wustl.edu/hsds/?domain=/counts'
 es <- loadCountsFromHSDS(es, url)

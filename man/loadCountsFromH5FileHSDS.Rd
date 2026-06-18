@@ -27,7 +27,7 @@ ExpressionSet object with loaded count matrix
 Load count matrix from remote HDF5-file
 }
 \examples{
-ess <- GEOquery::getGEO("GSE53053")
+ess <- GEOquery::getGEO("GSE53053", returnType = "ExpressionSet")
 es <- ess[[1]]
 url <- 'https://alserglab.wustl.edu/hsds/?domain=/counts'
 file <- "/dee2/mmusculus_star_matrix_20240409.h5"

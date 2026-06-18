@@ -49,7 +49,7 @@ To run the package enter the code sample below.
 Let’s load the ExpressionSet from GEO
 
 ``` r
-ess <- getGEO("GSE53053")
+ess <- getGEO("GSE53053", returnType = "ExpressionSet")
 es <- ess[[1]]
 ```
 

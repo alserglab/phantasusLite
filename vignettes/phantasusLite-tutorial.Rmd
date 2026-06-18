@@ -50,7 +50,7 @@ library(phantasusLite)
 Let's load dataset GSE53053 from GEO using `GEOquery` package:
 
 ```{r message=FALSE}
-ess <- getGEO("GSE53053")
+ess <- getGEO("GSE53053", returnType = "ExpressionSet")
 es <- ess[[1]]
 ```
 
