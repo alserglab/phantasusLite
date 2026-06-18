@@ -25,16 +25,7 @@ from the GitHub repository:
 
 ``` r
 library(devtools)
-install_github("ctlab/phantasusLite")
-```
-
-Note that the latest version depends on `rhdfclient5 >= 1.25.1` from
-Bioconductor 3.19, which on older systems can be more convenient to
-install from GitHub:
-
-``` r
-library(devtools)
-install_github("vjcitn/rhdf5client")
+install_github("alserglab/phantasusLite")
 ```
 
 ## Dependencies

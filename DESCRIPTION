@@ -32,5 +32,5 @@ Suggests:
     GEOquery
 VignetteBuilder: knitr
 Config/testthat/edition: 3
-URL: https://github.com/ctlab/phantasusLite/
-BugReports: https://github.com/ctlab/phantasusLite/issues
+URL: https://github.com/alserglab/phantasusLite/
+BugReports: https://github.com/alserglab/phantasusLite/issues

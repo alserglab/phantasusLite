@@ -36,7 +36,7 @@ Alternatively, the most recent version of the package can be installed from the 
 
 ```{r message=FALSE, eval=FALSE}
 library(devtools)
-install_github("ctlab/phantasusLite")
+install_github("alserglab/phantasusLite")
 ```
 
 # Loading precomputed RNA-seq counts
@@ -121,7 +121,7 @@ print(es$replicate)
 # Working with GCT files
 
 GCT text format can be used to store annotated gene expression matrices and load them in software 
-such as [Morpheus](https://software.broadinstitute.org/morpheus/) or [Phantasus](https://ctlab.itmo.ru/phantasus/).
+such as [Morpheus](https://software.broadinstitute.org/morpheus/) or [Phantasus](https://alserglab.wustl.edu/phantasus/).
 
 For example, we can save the `ExpressionSet` object that we defined previously:
 

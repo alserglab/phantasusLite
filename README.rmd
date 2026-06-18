@@ -25,15 +25,9 @@ Alternatively, the most recent version of the package can be installed from the 
 
 ```{r message=FALSE, eval=FALSE}
 library(devtools)
-install_github("ctlab/phantasusLite")
+install_github("alserglab/phantasusLite")
 ```
 
-Note that the latest version depends on `rhdfclient5 >= 1.25.1` from Bioconductor 3.19, which on older systems can be more convenient to install from GitHub:
-
-```{r message=FALSE, eval=FALSE}
-library(devtools)
-install_github("vjcitn/rhdf5client")
-```
 
 ## Dependencies
 
